@@ -48,5 +48,9 @@ For example, a multiplication table (string) for number == 5 looks like below:
 10 * 5 = 50
 `
 ```
-
+def multi_table(number):
+    a = ''
+    for i in range(1,11):
+        a += "{} * {} = {}\n".format(i,number,i*number)
+    return a[:-1]
 ```
