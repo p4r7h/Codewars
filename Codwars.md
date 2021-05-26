@@ -80,5 +80,11 @@ def area_or_perimeter(l , w):
     else : return (l+w)*2
 ```
 
+## String repeat
+`Write a function called repeatStr which repeats the given string string exactly n times.`
+```
+def repeat_str(repeat, string):
+    return string*repeat
+```
 
 
