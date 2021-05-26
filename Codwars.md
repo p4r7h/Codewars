@@ -54,3 +54,10 @@ def multi_table(number):
         a += "{} * {} = {}\n".format(i,number,i*number)
     return a[:-1]
 ```
+-------
+## get character from ASCII Value
+`Write a function which takes a number and returns the corresponding ASCII char for that value.`
+```
+def get_char(c):
+    return chr(c) 
+```
