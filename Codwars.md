@@ -115,4 +115,11 @@ def sp_eng(sentence):
     else : return False
 ```
 
-
+## String ends with?
+`Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string). `
+```
+def solution(s, e):
+    if e == s[-len(e):] or e == '' : return True
+    else : return False
+    pass
+```
