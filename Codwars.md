@@ -123,3 +123,10 @@ def solution(s, e):
     else : return False
     pass
 ```
+
+
+### Swap Values
+```
+def swap_values(arr): 
+    arr.reverse()
+```
