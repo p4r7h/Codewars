@@ -136,3 +136,8 @@ def swap_values(arr):
 def pre_fizz(n):
     return [*range(1, n+1)]
 ```
+### Generate range of integers
+```
+def generate_range(min, max, step):
+    return [*range(min,max+1,step)]
+```
