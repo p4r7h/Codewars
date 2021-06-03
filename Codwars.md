@@ -130,3 +130,9 @@ def solution(s, e):
 def swap_values(arr): 
     arr.reverse()
 ```
+
+### Pre-FizzBuzz Workout #1
+```
+def pre_fizz(n):
+    return [*range(1, n+1)]
+```
