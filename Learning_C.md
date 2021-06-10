@@ -77,3 +77,24 @@ int main(void)
 Prompt the user for a number of seconds. Take the user's input and convert the number of seconds into its duration in Hours, Minutes, and remaining Seconds.
 Extra Credit: Make sure the Hours, Minutes, and Seconds print with no decimal places.
 
+```c
+#include <stdio.h>
+
+int main(void){
+    // initillize variables
+    int hours,minutes,secounds,n,a;
+    printf("Enter the amount of seconds: ");
+    scanf("%d",&n);
+    a = n;
+    // Maths
+    n = n % (24 * 3600);
+    hours = n / 3600;
+
+    n %= 3600;
+    minutes = n / 60;
+
+    n %= 60;
+    secounds = n;
+    printf("%d seconds is equal to %d hours, %d minutes, and %d seconds.#",a,hours,minutes,secounds);
+}
+```
